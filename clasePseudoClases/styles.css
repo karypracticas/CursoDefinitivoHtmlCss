@@ -1,0 +1,31 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: lightseagreen;
+}
+
+.main-nav__item {
+    display: inline;
+}
+
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    text-decoration:none;
+}
+
+/*Pseudoclases :class*/
+
+.main-nav__item a:hover {
+    color: green;
+}
+
+.main-nav__item a:active {
+    color: red;
+}
+
+/*Pseudoelementos ::element*/
+.main-nav__item a::after {
+    content: " ° ";
+}
